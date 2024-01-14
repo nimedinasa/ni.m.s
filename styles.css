@@ -79,7 +79,6 @@ body, html {
 }
 
 .fancy-section {
-    max-width:600
     display: none;
     flex: 1;
     padding: 50px;
