@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Courier New", monospace;
+    font-family: 'Cinzel Decorative', cursive;
     background-color: #f8f8f8;
     color: #333;
 }
@@ -38,6 +38,7 @@ body {
     color: #fff;
     font-size: 16px;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .left-panel a:hover {
@@ -46,10 +47,14 @@ body {
 
 .right-panel {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
 }
 
 .fancy-section {
+    display: none;
+    flex: 1;
     padding: 50px;
     text-align: center;
     background-color: #fff;
@@ -61,22 +66,17 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.fancy-section:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.05);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-}
-
 .fancy-section .content {
     max-width: 600px;
     margin: 0 auto;
 }
 
-footer {
+.footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
