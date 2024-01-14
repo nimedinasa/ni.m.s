@@ -1,22 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scientific Webpage</title>
+</head>
 
-main {
-    margin: 20px 0;
-}
+<body>
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+    <header>
+        <h1>Scientific Study Title</h1>
+        <p>Author: Your Name | Date: January 14, 2024</p>
+    </header>
+
+    <section id="abstract">
+        <h2>Abstract</h2>
+        <p>This is a brief summary of your scientific study.</p>
+    </section>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Provide background information and state the objectives of your study.</p>
+    </section>
+
+    <section id="methodology">
+        <h2>Methodology</h2>
+        <p>Explain the methods and procedures used in your study.</p>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <p>Present the results of your study using tables, charts, or graphs.</p>
+    </section>
+
+    <section id="discussion">
+        <h2>Discussion</h2>
+        <p>Interpret the results, discuss implications, and compare with existing literature.</p>
+    </section>
+
+    <section id="references">
+        <h2>References</h2>
+        <p>List the references and citations used in your study.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name | Contact: your.email@example.com</p>
+    </footer>
+
+</body>
+
+</html>
