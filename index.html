@@ -11,54 +11,43 @@
 <body>
 
     <div class="split-screen">
-        <nav class="left-panel">
+        <div class="left-panel">
             <h1>Your Website Title</h1>
             <ul>
-                <li><a href="#section1" onclick="toggleSection('section1')">Home</a></li>
-                <li><a href="#section2" onclick="toggleSection('section2')">About</a></li>
-                <li><a href="#section3" onclick="toggleSection('section3')">Contact</a></li>
-                <li><a href="#section4" onclick="toggleSection('section4')">Additional</a></li>
+                <li onclick="toggleSection('section1')">Home</li>
+                <li onclick="toggleSection('section2')">About</li>
+                <li onclick="toggleSection('section3')">Contact</li>
+                <li onclick="toggleSection('section4')">Additional</li>
             </ul>
-        </nav>
+        </div>
 
-        <main class="right-panel">
+        <div class="right-panel">
             <section class="fancy-section" id="section1">
-                <div class="content">
-                    <h2>Welcome to Our Fancy Website</h2>
-                    <p>This is a place where elegance meets innovation.</p>
-                </div>
+                <h2>Home</h2>
+                <p>Welcome to our fancy website!</p>
             </section>
 
             <section class="fancy-section" id="section2">
-                <div class="content">
-                    <h2>About Us</h2>
-                    <p>We are a team of creative minds dedicated to bringing beauty to the web.</p>
-                </div>
+                <h2>About</h2>
+                <p>Learn more about our amazing team.</p>
             </section>
 
             <section class="fancy-section" id="section3">
-                <div class="content">
-                    <h2>Contact</h2>
-                    <p>Feel free to reach out to us at <a href="mailto:info@example.com">info@example.com</a>.</p>
-                </div>
+                <h2>Contact</h2>
+                <p>Get in touch with us through various channels.</p>
             </section>
 
-            <section class="additional-section" id="section4">
-                <div class="content">
-                    <h2>Additional Section</h2>
-                    <p>This is an additional section you requested.</p>
-                </div>
+            <section class="fancy-section" id="section4">
+                <h2>Additional</h2>
+                <p>Explore extra content and features.</p>
             </section>
-        </main>
+        </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 Your Fancy Website | Designed with ❤️</p>
-    </footer>
 
     <script src="scripts.js"></script>
 </body>
 
 </html>
+
 
 

@@ -3,15 +3,12 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to right, #f8f8f8, #e0e0e0); /* Color fade from left to right */
-    color: #333;
-    box-sizing: border-box;
+    background-color: #f8f8f8;
 }
 
 .split-screen {
     display: flex;
-    height: 100%;
-    align-items: center; /* Center the content vertically */
+    height: 100vh;
 }
 
 .left-panel {
@@ -21,8 +18,9 @@ body, html {
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .left-panel h1 {
@@ -33,31 +31,23 @@ body, html {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 .left-panel li {
     margin-bottom: 10px;
-}
-
-.left-panel a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
     transition: color 0.3s ease;
-    cursor: pointer;
 }
 
-.left-panel a:hover {
+.left-panel li:hover {
     color: #ffcc29; /* Yellow */
 }
 
 .right-panel {
     flex: 1;
-    padding: 20px;
-    display: flex; /* Added to ensure content is centered vertically in right panel */
+    display: flex;
     flex-direction: column;
-    height: 100%;
-    box-sizing: border-box;
+    padding: 20px;
 }
 
 .fancy-section {
@@ -74,6 +64,10 @@ body, html {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.fancy-section h2 {
+    margin-bottom: 10px;
+}
+
 .fancy-section .content {
     max-width: 600px;
     margin: 0 auto;
@@ -87,23 +81,6 @@ body, html {
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.additional-section {
-    display: none;
-    flex: 1;
-    padding: 50px;
-    text-align: center;
-    background-color: #fff;
-    color: #333;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    opacity: 0.95;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.additional-section .content {
-    max-width: 600px;
-    margin: 0 auto;
-}
 
 
