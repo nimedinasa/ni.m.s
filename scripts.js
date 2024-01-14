@@ -1,9 +1,11 @@
-function showSection(sectionNumber) {
-            // Hide all sections
-            document.querySelectorAll('.fancy-section').forEach(function(section) {
-                section.style.display = 'none';
-            });
 
-            // Show the selected section
-            document.getElementById('section' + sectionNumber).style.display = 'block';
-        }
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    const sections = document.querySelectorAll('.fancy-section');
+    
+    sections.forEach((s) => {
+        s.style.display = 'none';
+    });
+
+    section.style.display = 'flex';
+}
