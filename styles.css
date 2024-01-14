@@ -6,7 +6,12 @@ body {
     color: #333;
 }
 
-nav {
+.split-screen {
+    display: flex;
+}
+
+.left-panel {
+    width: 20%;
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -14,34 +19,34 @@ nav {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+.left-panel h1 {
+    margin-bottom: 20px;
+}
+
+.left-panel ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
+.left-panel li {
+    margin-bottom: 10px;
 }
 
-nav a {
+.left-panel a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+.left-panel a:hover {
     color: #ffcc29; /* Yellow */
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
+.right-panel {
+    flex: 1;
+    padding: 20px;
 }
 
 .fancy-section {
@@ -49,7 +54,7 @@ main {
     text-align: center;
     background-color: #fff;
     color: #333;
-    margin: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     opacity: 0.95;
