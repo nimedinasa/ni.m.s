@@ -69,7 +69,7 @@ body, html {
 .fancy-section {
     display: none;
     flex: 1;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     background-color: #fff;
     color: #333;
