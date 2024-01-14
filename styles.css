@@ -67,7 +67,7 @@ body, html {
     display: flex;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace; /* Adjust the font family here */
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -92,9 +92,10 @@ body, html {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Center content vertically */
-    max-width: 600px;
+    justify-content: center; /* Center content vertically */
+    max-width: 400px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .fancy-section .title {
