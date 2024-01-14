@@ -11,8 +11,11 @@ body, html {
     height: 100vh;
 }
 
+.left-panel, .right-panel {
+    flex: 1; /* Both panels take up equal width */
+}
+
 .left-panel {
-    flex: 1;
     background-color: #fff;
     color: #333;
     padding: 20px;
