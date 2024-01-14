@@ -53,8 +53,6 @@ body, html {
 
 .right-panel {
     flex: 1;
-    display: flex;
-    flex-direction: column;
     padding: 20px;
     height: 100%;
     box-sizing: border-box;
@@ -62,7 +60,6 @@ body, html {
 
 .fancy-section {
     display: none;
-    flex: 1;
     padding: 50px;
     text-align: center;
     background-color: #fff;
@@ -84,5 +81,24 @@ body, html {
     color: #fff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0px -4px 6px rgba(0, 0,
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additional-section {
+    display: none;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.additional-section .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
