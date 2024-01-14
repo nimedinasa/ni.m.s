@@ -2,48 +2,59 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Courier New", monospace;
+    transition: background-color 0.3s ease;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    height: 100vh;
-}
-
-.rothko-section {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-}
-
-.rothko-block {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.rothko-block1 {
-    background: #8c2300; /* Dark Red */
-}
-
-.rothko-block2 {
-    background: #ffcc29; /* Yellow */
-}
-
-.rothko-block3 {
-    background: #0f4c81; /* Dark Blue */
-}
-
-footer {
+nav {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc29; /* Yellow */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fancy-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fancy-section:hover {
+    background-color: #0f4c81; /* Dark Blue */
+    transform: scale(1.05);
+}
+
 
