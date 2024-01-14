@@ -76,7 +76,6 @@ body, html {
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace; /* Adjust the font family here */
     justify-content: center;
-    align-items: center;
 }
 
 .fancy-section {
