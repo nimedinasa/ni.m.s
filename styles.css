@@ -90,7 +90,7 @@ body, html {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: flex-end; /* Center content vertically */
     max-width: 600px;
     margin: 0 auto;
 }
