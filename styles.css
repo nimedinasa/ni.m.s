@@ -54,12 +54,15 @@ body, html {
 .right-panel {
     flex: 1;
     padding: 20px;
+    display: flex; /* Added to ensure content is centered vertically in right panel */
+    flex-direction: column;
     height: 100%;
     box-sizing: border-box;
 }
 
 .fancy-section {
     display: none;
+    flex: 1;
     padding: 50px;
     text-align: center;
     background-color: #fff;
@@ -86,6 +89,7 @@ body, html {
 
 .additional-section {
     display: none;
+    flex: 1;
     padding: 50px;
     text-align: center;
     background-color: #fff;
@@ -101,4 +105,5 @@ body, html {
     max-width: 600px;
     margin: 0 auto;
 }
+
 
