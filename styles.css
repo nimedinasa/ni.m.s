@@ -127,7 +127,19 @@ body, html {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .split-screen {
+        flex-direction: column;
+    }
 
+    .left-panel, .right-panel {
+        width: 100%;
+    }
+
+    .left-panel h2 {
+        font-size: 20px;
+    }
+}
 
 
 
