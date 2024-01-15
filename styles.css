@@ -129,6 +129,9 @@ body, html {
 
 
 @media only screen and (max-width: 600px) {
+    body, html {
+    width: 100%;  
+}
     .split-screen {
         flex-direction: column;
     }
