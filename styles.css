@@ -79,6 +79,8 @@ body, html {
 }
 
 .right-panel pp {
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Courier New', Courier, Monospace;
     font-weight:bold;
     margin-bottom: 10px;
