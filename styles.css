@@ -38,7 +38,7 @@ body, html {
 }
 
 .header img {
-    max-width: 300px; /* Adjust the width as needed */
+    max-width: 40%; /* Adjust the width as needed */
     margin-bottom: 10px;
 }
 
